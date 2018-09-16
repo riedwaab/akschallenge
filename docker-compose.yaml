@@ -1,0 +1,16 @@
+version: '3'
+services:
+  oc-backend:
+    image: mongodb
+    container_name: mongodb
+    ports:
+        - "27018:27018"
+
+  oc-api:
+    build: ./captureorderack
+    image: oc-api
+    container_name: oc-api
+    environment:
+      MONGO: oc-backend
+    ports:
+        - "8080:80"
