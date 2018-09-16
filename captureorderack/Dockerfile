@@ -28,7 +28,7 @@ COPY --from=builder /go/src/captureorderfd .
 
 # Define environment variables
 # Application Insights
-ENV APPINSIGHTS_KEY=
+ENV APPINSIGHTS_KEY=fc8439a4-f6da-48c0-8042-ffff157333ab
 ENV CHALLENGEAPPINSIGHTS_KEY=
 
 # Challenge Logging
@@ -38,7 +38,7 @@ ENV TEAMNAME=Riedwaan
 ENV AMQPURL=
 
 # Mongo/Cosmos
-ENV MONGOURL=
+ENV MONGOURL=mongodb://elomongo777:kjdKi98Bsdr.default?ssl=true
 
 # Expose the application on port 8080
 EXPOSE 8080
