@@ -38,7 +38,7 @@ ENV TEAMNAME=Riedwaan
 ENV AMQPURL=
 
 # Mongo/Cosmos
-ENV MONGOURL=mongodb://elomongo777:kjdKi98Bsdr@host:27017/ocdata
+ENV MONGOURL=mongodb://elomongo777:kjdKi98Bsdr@mongohost:27017/ocdata
 
 #mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]
 
