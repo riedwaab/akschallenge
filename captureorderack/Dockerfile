@@ -38,7 +38,9 @@ ENV TEAMNAME=Riedwaan
 ENV AMQPURL=
 
 # Mongo/Cosmos
-ENV MONGOURL=mongodb://elomongo777:kjdKi98Bsdr.default?ssl=true
+ENV MONGOURL=mongodb://elomongo777:kjdKi98Bsdr@host:27017/ocdata
+
+#mongodb://[username:password@]host1[:port1][,host2[:port2],...[,hostN[:portN]]][/[database][?options]]
 
 # Expose the application on port 8080
 EXPOSE 8080
